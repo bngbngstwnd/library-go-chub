@@ -17,7 +17,7 @@ Installation
 
     go get -u github.com/bngbngstwnd/library-go-chub
 
-Usage
+#Usage
 A. Constant
 1. Response Code, Response Message and Error Code
 

@@ -7,15 +7,15 @@ Installation
 
     Set GOPRIVATE variable in Go env to allow using private repository;
 
-    go env -w GOPRIVATE=bitbucket.org/bridce/lib-datahub
+    go env -w GOPRIVATE=github.com/bngbngstwnd/library-go-chub
 
-    Set git configuration, replacing "https://bitbucket.org" into "https://fraud_risk_konsultan:BITBUCKET_KEY@bitbucket.org". Ask administrator for BITBUCKET_KEY value;
+    Set git configuration, replacing "https://github.com" into "https://GITHUB_KEY@github.com". Ask administrator for GITHUB_KEY value;
 
-    git config --global url."https://fraud_risk_konsultan:*BITBUCKET_KEY*@bitbucket.org".insteadOf "https://bitbucket.org"
+    git config --global url."https://*GITHUB_KEY*@github.com".insteadOf "https://github.com"
 
     Get the library.
 
-    go get -u bitbucket.org/bridce/lib-datahub
+    go get -u github.com/bngbngstwnd/library-go-chub
 
 Usage
 A. Constant
@@ -76,7 +76,7 @@ ERROR_CODE_GENERAL_ERROR              = "999"
 Examples
 
 import (
-    "bitbucket.org/bridce/lib-datahub/constant"
+    "github.com/bngbngstwnd/library-go-chub/constant"
 )
 
 // returns 'Success'
@@ -159,7 +159,7 @@ Response Model
 Example
 
     import(
-        "bitbucket.org/bridce/lib-datahub/model/response"
+        "github.com/bngbngstwnd/library-go-chub/model/response"
     )
 
     info := response.ResponseInfo{
@@ -298,8 +298,8 @@ Response Builder Model
 Example
 
     import(
-        "bitbucket.org/bridce/lib-datahub/constant"
-        "bitbucket.org/bridce/lib-datahub/model/response"
+        "github.com/bngbngstwnd/library-go-chub/constant"
+        "github.com/bngbngstwnd/library-go-chub/model/response"
     )
 
     c *gin.Context
@@ -540,7 +540,7 @@ E. Validator
 Example
 
     import(
-        "bitbucket.org/bridce/lib-datahub/validator"
+        "github.com/bngbngstwnd/library-go-chub/validator"
     )
 
     c *gin.Context

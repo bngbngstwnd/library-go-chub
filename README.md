@@ -17,7 +17,7 @@ Installation
 
     go get -u github.com/bngbngstwnd/library-go-chub
 
-#Usage
+# Usage
 
 A. Constant
 1. Response Code, Response Message and Error Code
@@ -25,25 +25,25 @@ A. Constant
 These collections of constants are being used as standard response for Customer Hub
 Response Code Library
 
-RESPONSE_MESSAGE_SUCCESS                        = "Success"
-RESPONSE_MESSAGE_INVALID_BODY_REQ               = "Invalid Body Request"
-RESPONSE_MESSAGE_INVALID_HEADER_REQ             = "Invalid Header Request"
-RESPONSE_MESSAGE_INVALID_QUERY_PARAMS           = "Invalid Query Parameters"
-RESPONSE_MESSAGE_BODY_REQ_EMPTY                 = "Body Request Empty"
-RESPONSE_MESSAGE_INVALID_DATA_TYPE              = "Invalid Data Type"
-RESPONSE_MESSAGE_INVALID_DATE_FORMAT            = "Invalid Date Format"
-RESPONSE_MESSAGE_INVALID_TIME_FORMAT            = "Invalid Time Format"
-RESPONSE_MESSAGE_INVALID_AUTH_TOKEN             = "Invalid Auth Token"
-RESPONSE_MESSAGE_INVALID_DATA_ALREADY_EXIST     = "Data Already Exist"
-RESPONSE_MESSAGE_AUTH_TOKEN_EXPIRED             = "Auth Token Expired"
-RESPONSE_MESSAGE_AUTH_TOKEN_EMPTY               = "Auth Token Empty"
-RESPONSE_MESSAGE_DATA_NOT_FOUND                 = "Data Not Found"
-RESPONSE_MESSAGE_ROUTE_NOT_FOUND                = "Route Not Found"
-RESPONSE_MESSAGE_DATABASE_ERROR                 = "Database Error"
-RESPONSE_MESSAGE_PRODUCE_MESSAGE_ERROR          = "Failed to produce message"
-RESPONSE_MESSAGE_TIMEOUT                        = "Timeout"
-RESPONSE_MESSAGE_UNDEFINED_ERROR                = "Undefined Error"
-RESPONSE_MESSAGE_GENERAL_ERROR                  = "General Error"
+RESPONSE_MESSAGE_SUCCESS                    = "Success"
+RESPONSE_MESSAGE_INVALID_BODY_REQ           = "Invalid Body Request"
+RESPONSE_MESSAGE_INVALID_HEADER_REQ         = "Invalid Header Request"
+RESPONSE_MESSAGE_INVALID_QUERY_PARAMS       = "Invalid Query Parameters"
+RESPONSE_MESSAGE_BODY_REQ_EMPTY             = "Body Request Empty"
+RESPONSE_MESSAGE_INVALID_DATA_TYPE          = "Invalid Data Type"
+RESPONSE_MESSAGE_INVALID_DATE_FORMAT        = "Invalid Date Format"
+RESPONSE_MESSAGE_INVALID_TIME_FORMAT        = "Invalid Time Format"
+RESPONSE_MESSAGE_INVALID_AUTH_TOKEN         = "Invalid Auth Token"
+RESPONSE_MESSAGE_INVALID_DATA_ALREADY_EXIST = "Data Already Exist"
+RESPONSE_MESSAGE_AUTH_TOKEN_EXPIRED         = "Auth Token Expired"
+RESPONSE_MESSAGE_AUTH_TOKEN_EMPTY           = "Auth Token Empty"
+RESPONSE_MESSAGE_DATA_NOT_FOUND             = "Data Not Found"
+RESPONSE_MESSAGE_ROUTE_NOT_FOUND            = "Route Not Found"
+RESPONSE_MESSAGE_DATABASE_ERROR             = "Database Error"
+RESPONSE_MESSAGE_PRODUCE_MESSAGE_ERROR      = "Failed to produce message"
+RESPONSE_MESSAGE_TIMEOUT                    = "Timeout"
+RESPONSE_MESSAGE_UNDEFINED_ERROR            = "Undefined Error"
+RESPONSE_MESSAGE_GENERAL_ERROR              = "General Error"
 
 Response Message Library
 
@@ -55,24 +55,24 @@ RESPONSE_CODE_INTERNAL_ERROR    = "05"
 
 Error Code Library
 
-ERROR_CODE_SUCCESS                      = "000"
-ERROR_CODE_INVALID_BODY_REQUEST         = "010"
-ERROR_CODE_BODY_REQUEST_EMPTY           = "011"
-ERROR_CODE_INVALID_DATA_TYPE            = "012"
-ERROR_CODE_INVALID_DATE_FORMAT          = "013"
-ERROR_CODE_INVALID_TIME_FORMAT          = "014"
-ERROR_CODE_INVALID_HEADER_REQUEST       = "015"
-ERROR_CODE_INVALID_QUERY_PARAMS         = "016"
-ERROR_CODE_INVALID_DATA_ALREADY_EXIST   = "017"
-ERROR_CODE_INVALID_AUTH_TOKEN           = "020"
-ERROR_CODE_AUTH_TOKEN_EXPIRED           = "021"
-ERROR_CODE_AUTH_TOKEN_EMPTY             = "022"
-ERROR_CODE_DATA_NOT_FOUND               = "030"
-ERROR_CODE_DATABASE_ERROR               = "050"
-ERROR_CODE_TIMEOUT                      = "059"
-ERROR_CODE_PRODUCE_MESSAGE_ERROR        = "060"
-ERROR_CODE_UNDEFINED_ERROR              = "888"
-ERROR_CODE_GENERAL_ERROR                = "999"
+ERROR_CODE_SUCCESS                    = "000"
+ERROR_CODE_INVALID_BODY_REQUEST       = "010"
+ERROR_CODE_BODY_REQUEST_EMPTY         = "011"
+ERROR_CODE_INVALID_DATA_TYPE          = "012"
+ERROR_CODE_INVALID_DATE_FORMAT        = "013"
+ERROR_CODE_INVALID_TIME_FORMAT        = "014"
+ERROR_CODE_INVALID_HEADER_REQUEST     = "015"
+ERROR_CODE_INVALID_QUERY_PARAMS       = "016"
+ERROR_CODE_INVALID_DATA_ALREADY_EXIST = "017"
+ERROR_CODE_INVALID_AUTH_TOKEN         = "020"
+ERROR_CODE_AUTH_TOKEN_EXPIRED         = "021"
+ERROR_CODE_AUTH_TOKEN_EMPTY           = "022"
+ERROR_CODE_DATA_NOT_FOUND             = "030"
+ERROR_CODE_DATABASE_ERROR             = "050"
+ERROR_CODE_TIMEOUT                    = "059"
+ERROR_CODE_PRODUCE_MESSAGE_ERROR      = "060"
+ERROR_CODE_UNDEFINED_ERROR            = "888"
+ERROR_CODE_GENERAL_ERROR              = "999"
 
 Examples
 
